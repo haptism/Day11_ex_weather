@@ -1,24 +1,11 @@
 package com.rjm.weather.ex1;
 
-import java.util.ArrayList;
-import java.util.Random;
-import java.util.Scanner;
-
 public class Weather {
 
-	Scanner sc = new Scanner(System.in);
-	ArrayList ar = new ArrayList();
-	Random random = new Random();
-
-	// 도시명
 	private String city;
-	// 맑음
 	private String state;
-	// 온도
-	private int tem;
-	// 습도
+	private int Tem;
 	private int hum;
-	// 미세먼지
 	private double fine;
 
 	public String getCity() {
@@ -38,11 +25,11 @@ public class Weather {
 	}
 
 	public int getTem() {
-		return tem;
+		return Tem;
 	}
 
 	public void setTem(int tem) {
-		this.tem = tem;
+		Tem = tem;
 	}
 
 	public int getHum() {
@@ -60,5 +47,5 @@ public class Weather {
 	public void setFine(double fine) {
 		this.fine = fine;
 	}
-	
+
 }
