@@ -1,6 +1,7 @@
 package com.rjm.member;
 
 public class Member {
+	
 	// 이름, id, pw, age, level =0,1,2
 	private String name;
 	private String id;
